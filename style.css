@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Delius Unicase', cursive;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(65, 131, 231);
+    color: white;
+    width: 100%;
+    top: 0%;
+}
+
+.navbar a {
+    display: block;
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 30px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.ff {
+    padding: 30px;
+    width: 250px;
+    display: flex;
+    height: 30px;
+}
+
+.f4>input {
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    font-size: 20px;
+    border-width: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 30;
+}
+
+#search {
+    position: absolute;
+    margin-left: 160px;
+    padding-left: 52px;
+    padding-top: 10px;
+}
+
+#img1 {
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.f1 {
+    display: flex;
+    padding-top: 170px;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-left: 129px;
+}
+
+.img {
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.p1 {
+    background-color: rgb(247, 223, 243);
+    border-radius: 10px;
+    height: 400;
+    width: 900;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(62, 60, 60);
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 250px;
+    overflow-wrap: normal;
+    box-shadow: 0px 0px 10px -4px black inset;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 70px;
+    position: -webkit-sticky;
+    padding-top: 80px;
+    position: sticky;
+    top: 0;
+}
+
+.chatbox {
+    position: fixed;
+    margin-left: 1350px;
+}
+
+.f2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.f2>p {
+    height: 130px;
+    width: 300px;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    letter-spacing: 1.16px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 20px -8px black;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.b1 {
+    background-color: rgb(163, 191, 227);
+}
+
+.b2 {
+    background-color: rgb(145, 138, 234);
+}
+
+.b3 {
+    background-color: rgb(213, 126, 230);
+}
+
+.b4 {
+    background-color: black;
+}
+
+.f3 {
+    display: flex;
+    background-color: rgb(82, 84, 222);
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 60px;
+    padding: 50px;
+    height: 500px;
+    width: 1400px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.f4 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bookmark1 {
+    background-color: rgb(159, 223, 242);
+    padding: 20px 60px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    align-content: center;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    letter-spacing: 1.4px;
+}
+
+.j1 {
+    padding: 20px 60px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    align-content: center;
+    border: 40px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 4px;
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%;
+    letter-spacing: 1.4px;
+}
+
+.f5 {
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 20px;
+    height: 400px;
+    width: 520px;
+    padding-right: 350px;
+}
+
+.f5>p {
+    font-size: 25px;
+    padding: 30px;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact {
+    display: flex;
+    padding-left: 50px;
+    line-height: 220%;
+    gap: 30px;
+}
+
+.k1 {
+    font-family: 'Roboto', sans-serif;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.k2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.k3 {
+    font-weight: 600;
+}
+
+button {
+    margin-top: 90px;
+    margin-left: 700px;
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300px;
+}
